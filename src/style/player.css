@@ -1,0 +1,161 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+button {
+	outline: none;
+	cursor: pointer;
+}
+
+.player {
+	float: right;
+	position: relative;
+	height: 100%;
+	width: 40%;
+}
+
+.panel {
+	width: 429px;
+	height: 524px;
+	margin: 0 auto;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	background-color: #e5e5e5;
+	border-radius: 10px;
+	box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+	background: url(../images/player_background.png) no-repeat;
+	background-size: contain;
+    transition: background 1s cubic-bezier(0.6, -0.28, 0.74, 0.05);
+}
+
+.left_blurry {
+	width: 326px;
+	height: 438px;
+	
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+.left_cover {
+	position: absolute;
+	width: 326px;
+	height: 524px;
+	top: 0;
+	left: 0;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	background-color: rgba(157, 174, 171, 0.7)
+}
+
+.playing_song {
+	padding: 100px 10px;
+	position: absolute;
+	width: 305px;
+}
+
+.playing_song p{
+
+	margin: 0;
+	text-align: center;
+	color: white;
+	font-size: 14px;
+	font-weight: lighter;
+}
+
+.play_control {
+	height: 82px;
+	position: relative;
+	top: 430px;
+}
+
+.play_button_play {
+	width: 50px;
+	height: 50px;
+	color: white;
+	border: none;
+	background-color: transparent;
+	background: url(../images/play.png) no-repeat center;
+	background-size: 50px 50px;
+	display: block;
+	position: relative;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+.play_button_pause {
+	width: 50px;
+	height: 50px;
+	color: white;
+	border: none;
+	background-color: transparent;
+	background: url(../images/pause.png) no-repeat center;
+	background-size: 50px 50px;
+	display: block;
+	position: relative;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+.bottom_cover {
+	position: absolute;
+	width: 429px;
+	height: 95px;
+	bottom: 0;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	background: white;
+}
+.progress_bar{
+	cursor: pointer;
+}
+
+.songLength {
+	position: absolute;
+	display: inline-block;
+	left: 275px;
+	top: 40px;
+	font-size: 14px;
+	color: white;
+}
+
+.timePlayed {
+	position: absolute;
+	display: inline-block;
+	left: 13px;
+	top: 40px;
+	font-size: 14px;
+	color: white;
+}
+
+.heart {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	height: 92px;
+	width: 103px; 
+}
+
+.heart button {
+	width: 32px;
+	height: 32px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -14px;
+	margin-left: -16px;
+}
+
+.like {
+	border: none;
+	font-size: 0;
+	background: url(../images/like.png) no-repeat;
+	background-size: 32px 32px;
+}
+
+.unlike {
+	border: none;
+	font-size: 0;
+	background: url(../images/unlike.png) no-repeat;
+	background-size: 32px 32px;
+}

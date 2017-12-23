@@ -1,0 +1,68 @@
+.comments {
+	height: 80%;
+	width: 50%;
+	float: left;
+	position: relative;
+}
+.comment_content {
+	text-align: left;
+	font-size: 26px;
+	font-weight: lighter;
+	margin: 0;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.comment_content p{
+	color: rgba(0, 0, 0, 0.8);
+	text-shadow: 0px 1px 6px #22222273;
+	font-weight: 200;
+}
+.comment_button {
+	margin-top: 20px;
+	position: absolute;
+	left: 50%;
+	margin-left: -190px;
+	bottom: 10px;
+}
+
+.comment_button button{
+	font-size: 16px;
+	color: rgba(0, 0, 0, 0.6);
+	line-height: 46px;
+}
+
+.comment_button button:active {
+	border: none;
+	box-shadow: inset 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+	color: rgba(0, 0, 0, 0.4);
+	font-size: 15px;
+	line-height: 46px;
+}
+
+.pre_btn {
+	width: 120px;
+	height: 50px;
+	background-color: rgb(250, 250, 250);
+	border-top-left-radius: 50px;
+	border-bottom-left-radius: 50px;
+	box-shadow: -1px 2px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+.play_btn {
+	width: 120px;
+	height: 50px;
+	background-color: rgb(250, 250, 250);
+	box-shadow: -1px 2px 5px 0px rgba(0, 0, 0, 0.5);
+	margin: 0 10px;
+}
+
+.next_btn {
+	width: 120px;
+	height: 50px;
+	background-color: rgb(250, 250, 250);
+	border-top-right-radius: 50px;
+	border-bottom-right-radius: 50px;
+	box-shadow: -1px 2px 5px 0px rgba(0, 0, 0, 0.5);
+}
